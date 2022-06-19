@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <div class="container">
+    <h1 id="title">Survey</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve our platform.
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name:<input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label">Email:<input id="email" type="email" placeholder="Enter your email" required></label>
+      <label id="number-label">Age: (optional)<input id="number" type="number" min="3" max="120" placeholder="What's your age?"></label>
+      </fieldset>
+      <fieldset>
+        <label>What describes your job?
+          <select id="dropdown">
+            <option>Select an option</option>
+            <option>Student</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Full Stack Developer</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How do you like our new site?</label><input class="inline" type="radio" name="like-label" value="great">Great</label>
+        <label><input class="inline" type="radio" name="like-label" value="fine">It's fine</label>
+        <label><input class="inline" type="radio" name="like-label" value="meh">Meh</label>
+      </fieldset>
+      <fieldset>
+        <label>What do you want us to improve on?</label>
+        <label><input class="inline" type="checkbox" value="frontend">Frontend tutorials</label>
+        <label><input class="inline" type="checkbox" value="backend">Backend tutorials</label>
+        <label><input class="inline" type="checkbox" value="video">Video tutorials</label>
+        <label><input class="inline" type="checkbox" value="podcasts">Podcast</label>
+        <label><input class="inline" type="checkbox" value="wiki">Wiki</label>
+        <label><input class="inline" type="checkbox" value="forum">Forum<l/label>
+        <label><input class="inline" type="checkbox" value="challenges">Challenges</label>
+        <label><input class="inline" type="checkbox" value="hackathons">Hackathons</label>
+        <label><input class="inline" type="checkbox" value="meetups">Meetups</label>
+      </fieldset>
+      <fieldset>
+        <label>
+          <textarea>Enter your comments here</textarea>
+        </label>
+      </fieldset>
+    <button id="submit">Submit</button>
+    </form>
+  </div>
+  </body>
+</html>
