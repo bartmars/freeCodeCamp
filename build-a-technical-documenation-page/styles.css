@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.4rem;
+}
+
+/* navigation section */
+#navbar {
+    top: 0;
+    left: 0;
+}
+
+.javascript-logo {
+    padding: 5px;
+    width: 125px;
+    position: fixed;
+}
+
+#navbar header {
+    color: white;
+    margin-top: 1rem;
+    padding: 5px 5px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    top: 175px;
+    position: fixed; /* make it stick in one place, ignore scrolling */
+    overflow: hidden; /* enable scrolling if sidenav has too much content */
+}
+
+#navbar li a {
+    display: block;
+    line-height: 1.5rem;
+    width: 230px;
+    text-decoration: underline dashed;
+}
+
+.nav-link, .nav-link:hover, .nav-link:active, .nav-link:visited {
+    color: #C70A80;
+    text-decoration: none;
+}
+
+/* main content */
+#main-doc {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    padding: 0 10px;
+}
+
+.main-section {
+    padding-bottom: 1rem;
+}
+
+section header {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #243A73;
+}
+
+code {
+    line-height: 1.4rem;
+    background-color: #eeeeee;
+    width: 50vw;
+    font-size: 1rem;
+}
+
+pre {
+    display: block;
+    background-color: #eeeeee;
+    margin: 0;
+    white-space: pre-line;
+    font-size: 1rem;
+    margin: 5px 5px;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        height: 525px;
+    }
+
+    #navbar ul {
+        position: static;
+    }
+
+    #main-doc {
+        position: static;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    #navbar header {
+        margin: 0;
+    }
+
+    .javascript-logo {
+        position: static;
+    }
+}
