@@ -194,7 +194,7 @@ input {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
     body {
         margin: 19rem 0 0 0;
     }
