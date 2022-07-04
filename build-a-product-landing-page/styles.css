@@ -170,7 +170,7 @@ input {
     color: var(--clr-accent3)
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     body {
         margin: 19rem 0 0 0;
     }
@@ -194,7 +194,7 @@ input {
     }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 415px) {
     body {
         margin: 19rem 0 0 0;
     }
