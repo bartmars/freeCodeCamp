@@ -193,3 +193,27 @@ input {
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 414px) {
+    body {
+        margin: 19rem 0 0 0;
+    }
+
+    input {
+        width: 18rem;
+    }
+
+    .section {
+        padding: 1rem;
+    }
+    
+    .section ul {
+        flex-direction: column;
+    }
+
+    .footer-item {
+        flex-direction: column;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
