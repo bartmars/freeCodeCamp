@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     line-height: 1.4rem;
+}
+
+#navbar header {
+    position: fixed;
+    font-size: 1.5rem;
 }
 
 /* navigation section */
@@ -16,7 +27,6 @@ body {
 }
 
 #navbar header {
-    color: white;
     margin-top: 1rem;
     padding: 5px 5px;
 }
